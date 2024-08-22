@@ -26,7 +26,7 @@ if(endurance>0) {
 }
 else
 {
-    System.out.println(String.format("Воин %s оббессилен и не может атаковать", getName()));
+    System.out.println(String.format("Воин %s обессилен и не может атаковать", getName()));
     setEndurance(getEndurance()+1);
 }
     }

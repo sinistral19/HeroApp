@@ -32,7 +32,7 @@ public class Archer extends Hero {
         }
         else
         {
-            System.out.println(String.format("Лучник %s оббессилен и не может стрелять", getName()));
+            System.out.println(String.format("Лучник %s обессилен и не может стрелять", getName()));
             setEndurance(getEndurance()+1);
         }
     }
